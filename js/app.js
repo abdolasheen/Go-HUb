@@ -66,7 +66,8 @@ function scrollRevealMain() {
     origin: "right",
     opacity: null,
     duration: 2000,
-    cleanup: true
+    cleanup: true,
+    mobile:false
   };
   var slideLeft = {
     delay: 200,
@@ -74,7 +75,8 @@ function scrollRevealMain() {
     origin: "left",
     opacity: null,
     duration: 2000,
-    cleanup: true
+    cleanup: true,
+    mobile:false
   };
   var slideBottom = {
     distance: "100%",
@@ -82,21 +84,24 @@ function scrollRevealMain() {
     opacity: null,
     duration: 1500,
     scale: 0.5,
-    cleanup: true
+    cleanup: true,
+    mobile:false
   };
   var slideRight_150 = {
     distance: "150%",
     origin: "right",
     opacity: null,
     duration: 1000,
-    cleanup: true
+    cleanup: true,
+    mobile:false
   };
   var slideLeft_150 = {
     distance: "150%",
     origin: "left",
     opacity: null,
     duration: 1000,
-    cleanup: true
+    cleanup: true,
+    mobile:false
   };
 
   ScrollReveal().reveal(".slideRight", slideRight);
